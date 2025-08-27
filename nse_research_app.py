@@ -189,6 +189,7 @@ def plot_line(df: pd.DataFrame, symbol: str):
     plt.grid(True, linestyle="--", linewidth=0.5)
     plt.tight_layout()
     plt.show()
+    
 
 # ---- promoter holding (single stock only, simple) ----
 
