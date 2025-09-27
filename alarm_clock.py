@@ -22,7 +22,7 @@ def set_alarm(alarm_time):
             pygame.mixer.music.set_volume(1.0)
             pygame.mixer.music.play()
 
-            # ✅ Keep program alive until playback finishes
+            # Keep program alive until playback finishes
             while pygame.mixer.music.get_busy():
                 time.sleep(0.1)
 
